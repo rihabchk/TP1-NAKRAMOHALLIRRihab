@@ -33,5 +33,8 @@ public class Student {
     public void setCne(String cne) {
         this.cne = cne;
     }
+    public String toString(){
+        return "Student{" + "nom=" + nom + ", age=" + age + ", cne=" + cne + '}';
+    }
 
 }
